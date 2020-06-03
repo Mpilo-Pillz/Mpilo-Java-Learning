@@ -7,3 +7,5 @@ chapterOne/chapterOne.iml
 chapterOne/out/
 ChapterTwo/out/
 .DS_Store
+out/
+.idea/
