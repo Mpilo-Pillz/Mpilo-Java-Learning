@@ -3,12 +3,14 @@ chapterOne/.idea/
 ChapterThree/.idea/
 ChapterFour/.idea/
 ChapterFive/.idea/
+ChapterSix/.idea/
 
 ChapterTwo/ChapterTwo.iml
 ChapterThree/ChapterThree.iml
 chapterOne/chapterOne.iml
 ChapterFour/ChapterFour.iml
 ChapterFive/ChapterFive.iml
+ChapterSix/ChapterSix.iml
 
 chapterOne/.DS_Store
 chapterOne/.gitignore
@@ -25,11 +27,15 @@ ChapterFour/src/DS_Store
 ChapterFive/DS_Store
 ChapterFive/src/DS_Store
 
+ChapterSix/DS_Store
+ChapterSix/src/DS_Store
+
 chapterOne/out/
 ChapterTwo/out/
 ChapterThree/out/
 ChapterFour/out/
 ChapterFive/out/
+Chapter/out/
 
 .DS_Store
 out/
