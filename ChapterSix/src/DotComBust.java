@@ -24,8 +24,8 @@ public class DotComBust {
         System.out.println("Try to sink them all in the fewest number of gueses");
 
         for (DotCom dotComToSet: dotComsList) {
-            ArrayList<String> newLocation = helper.placeDotCom(3);
-            dotComToSet.setLocationCells(newLocation);
+//            ArrayList<String> newLocation = helper.placeDotCom(3);
+//            dotComToSet.setLocationCells(newLocation);
         }
     }
 
@@ -63,7 +63,7 @@ public class DotComBust {
     }
 
     public static void main(String[] args) {
-        DotCom game = new DotCom();
+        DotComBust game = new DotComBust();
         game.setUpGame();
         game.startPlaying();
     }
