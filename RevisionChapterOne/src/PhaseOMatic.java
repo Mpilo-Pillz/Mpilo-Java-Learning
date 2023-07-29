@@ -17,6 +17,6 @@ public class PhaseOMatic {
 
         String phrase = wordListOne[rand1] + " " + wordListTwo[rand2] + " " + wordListThree[rand3];
 
-        System.out.println(phrase);
+        System.out.println("Whatweneedisa"+phrase);
     }
 }
