@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class TestArrays {
     public static void main(String[] args) {
         String[] islands = new String[4];
@@ -8,6 +10,8 @@ public class TestArrays {
         islands[1] = "Fiji";
         islands[2] = "Azores";
         islands[3] = "Cozumel";
+
+        System.out.println(Arrays.toString(islands));
 
         int [] index = new int[4];
 
@@ -26,3 +30,6 @@ public class TestArrays {
         }
     }
 }
+
+// [1, 3, 0, 2]
+// ["
