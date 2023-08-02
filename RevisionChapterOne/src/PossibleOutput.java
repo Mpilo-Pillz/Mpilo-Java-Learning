@@ -6,6 +6,8 @@ public class PossibleOutput {
         System.out.println("------------------End of Second Possibility------------------");
         thirdPossibility();
         System.out.println("------------------End of Third Possibility------------------");
+        fourthPossibility();
+        System.out.println("------------------End of Fourth Possibility------------------");
     }
     public static void firstPosibility() {
     int x = 0;
@@ -60,5 +62,23 @@ public class PossibleOutput {
         System.out.println("y = x + y; ---> 02 14 25 36 47 --> option 8");
     }
 
+    public static void fourthPossibility() {
+        int x = 0;
+        int y = 0;
+        while( x < 5) {
+            x = x + 1;
+            y = y + x;
+
+            System.out.print(x + "" + y + " ");
+            x = x + 1;
+        }
+//        System.out.println("y = x - y; ---> 00 11 21 32 42 --> option 8");
+        // x = 0   11, x2 y1 o
+        // x = 2   34, x4 y4
+        // x = 4   59, x6 y9
+        // x = ?
+        // x = ?
+        System.out.println("y = x + y; ---> 11 34 59 --> option 2");
+    }
 }
 
