@@ -4,6 +4,8 @@ public class PossibleOutput {
         System.out.println("------------------End of First Possibility------------------");
         secondPossibility();
         System.out.println("------------------End of Second Possibility------------------");
+        thirdPossibility();
+        System.out.println("------------------End of Third Possibility------------------");
     }
     public static void firstPosibility() {
     int x = 0;
@@ -29,13 +31,33 @@ public class PossibleOutput {
             System.out.print(x + "" + y + " ");
             x = x + 1;
         }
-        System.out.println("y = x - y; ---> 00 11 21 32 42 --> option 5");
+//        System.out.println("y = x - y; ---> 00 11 21 32 42 --> option 5");
         // x = 0   00 is x is 1 at the end y is 0
         // x = 1   11 x is 2 at the end y is 1
         // x = 2   23 x is 3 at the end and y is 3
         // x = 3   36 x is 4 at the end and y is 6
         // x = 4   410 x is 5 at the end and y is 10
         System.out.println("y = x + y; ---> 00 11 23 36 410 --> option 7");
+    }
+
+    public static void thirdPossibility() {
+        int x = 0;
+        int y = 0;
+        while( x < 5) {
+            y = y + 2;
+            if( y > 4) {
+                y = y - 1;
+            }
+            System.out.print(x + "" + y + " ");
+            x = x + 1;
+        }
+//        System.out.println("y = x - y; ---> 00 11 21 32 42 --> option 8");
+        // x = 0   02 x is 1 at the end y is 2
+        // x = 1   14 x is 2 at the end y is 4
+        // x = 2   25 x is 3 at the end and y is 4
+        // x = 3   36 x is 4 at the end and y is 6
+        // x = 4   47
+        System.out.println("y = x + y; ---> 02 14 25 36 47 --> option 8");
     }
 
 }
