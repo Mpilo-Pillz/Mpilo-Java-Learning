@@ -1,6 +1,6 @@
 public class PossibleOutput {
     public static void main(String[] args) {
-        firstPosibility();
+        firstPossibility();
         System.out.println("------------------End of First Possibility------------------");
         secondPossibility();
         System.out.println("------------------End of Second Possibility------------------");
@@ -11,7 +11,7 @@ public class PossibleOutput {
         fifthPossibility();
         System.out.println("------------------End of Fifth Possibility------------------");
     }
-    public static void firstPosibility() {
+    public static void firstPossibility() {
     int x = 0;
     int y = 0;
      while( x < 5) {
@@ -24,7 +24,7 @@ public class PossibleOutput {
 // x = 1   11 is x is 2 at the end y is 1
 // x = 2   21 x is 3 at the end y is 1
 // x = 3   32 x is 4 at the end y is 2
-// x = 4   42 x is 5 at he end y is 2
+// x = 4   42 x is 5 at the end y is 2
     }
 
     public static void secondPossibility() {
