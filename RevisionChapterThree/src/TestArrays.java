@@ -4,7 +4,7 @@ public class TestArrays {
     public static void main(String[] args) {
         String[] islands = new String[4];
 
-        int y = 0;
+
 
         islands[0] = "Bermuda";
         islands[1] = "Fiji";
@@ -20,6 +20,7 @@ public class TestArrays {
         index[2] = 0;
         index[3] = 2;
 
+        int y = 0;
         int ref;
         while (y < 4) {
             ref = index[y];
@@ -32,4 +33,4 @@ public class TestArrays {
 }
 
 // [1, 3, 0, 2]
-// ["
+// [Bermuda, Fiji, Azores, Cozumel]
