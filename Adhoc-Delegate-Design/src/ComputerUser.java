@@ -14,6 +14,7 @@ class ComputerUserTester {
     public static void main(String[] args) {
         ComputerUser computerUser = new ComputerUser("Nikita");
         SixteenInch myDreamBook = new SixteenInch(computerUser);
-        myDreamBook.useComputer();
+//        myDreamBook.useComputer(); not delegate tricked me there
+        computerUser.useLaptop();
     }
 }
