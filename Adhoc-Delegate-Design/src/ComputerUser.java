@@ -13,7 +13,7 @@ public class ComputerUser {
 class ComputerUserTester {
     public static void main(String[] args) {
         ComputerUser computerUser = new ComputerUser("Nikita");
-        SixteenInch myDreamBook = new SixteenInch(computerUser);
+        SixteenInch myDreamBook = new SixteenInch("Thulani", computerUser);
 //        myDreamBook.useComputer(); not delegate tricked me there
         computerUser.useLaptop();
     }
