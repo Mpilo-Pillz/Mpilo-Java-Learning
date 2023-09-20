@@ -3,5 +3,13 @@ public class MiniDuckSimulator {
         Duck mallard = new MallardDuck();
         mallard.performQuack();
         mallard.performFly();
+
+        Duck rubberDuck = new RubberDuck();
+        rubberDuck.performQuack();
+        rubberDuck.performFly();
+
+        Duck robotDuck = new RobotDuck();
+        robotDuck.performFly();
+        robotDuck.performQuack();
     }
 }
