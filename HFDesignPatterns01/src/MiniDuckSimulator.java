@@ -11,5 +11,10 @@ public class MiniDuckSimulator {
         Duck robotDuck = new RobotDuck();
         robotDuck.performFly();
         robotDuck.performQuack();
+
+        Duck modelDuck = new ModelDuck();
+        modelDuck.performFly(); // prints does not fly
+        modelDuck.setFlyBehavior(new FlyRocketPowered()); // attaching a rocket, overwriting its no fly behavior
+        modelDuck.performFly(); // now it flies
     }
 }
