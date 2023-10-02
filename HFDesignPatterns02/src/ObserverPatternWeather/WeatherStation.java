@@ -5,6 +5,7 @@ public class WeatherStation {
         WeatherData weatherData = new WeatherData();
 
         CurrentConditionsDisplay currentDisplay = new CurrentConditionsDisplay(weatherData);
+        SmartDeviceWeatherDisplay smartDeviceWeatherDisplay = new SmartDeviceWeatherDisplay(weatherData);
 //        StatisticsDisplay statisticsDisplay = new StatisticsDisplay(weatherData);
 //        ForecastDisplay forecastDisplay = new ForecastDisplay(weatherData);
 
