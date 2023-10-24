@@ -1,12 +1,12 @@
-public class Mocha extends CondimentDecorator {
+public class Soy {
     Beverage beverage;
 
-    public Mocha(Beverage beverage) {
+    public Soy(Beverage beverage) {
         this.beverage = beverage;
     }
 
     public String getDescription() {
-        return beverage.getDescription() + ", Mocha";
+        return beverage.getDescription() +  ",Soy ";
     }
 
     public double cost() {
