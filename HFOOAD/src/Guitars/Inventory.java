@@ -26,7 +26,7 @@ public class Inventory {
         return  null;
     }
 
-    public Guitar Search(Guitar searchGuitar) {
+    public Guitar search(Guitar searchGuitar) {
         for (Iterator i = guitars.iterator(); i.hasNext(); ) {
             Guitar guitar = (Guitar) i.next();
             // Ignore serial number since that’s unique
