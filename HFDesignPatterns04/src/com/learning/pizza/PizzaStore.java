@@ -2,8 +2,8 @@ package com.learning.pizza;
 
 public abstract class PizzaStore {
 
-    public PizzaLegacy orderPizza(String type) {
-        PizzaLegacy pizza;
+    public Pizza orderPizza(String type) {
+        Pizza pizza;
 
         pizza = createPizza(type);
 
@@ -12,7 +12,7 @@ public abstract class PizzaStore {
         pizza.cut();
         pizza.box();
 
-        return pizza
+        return pizza;
     }
-    abstract PizzaLegacy createPizza(String type);
+    abstract Pizza createPizza(String type);
 }
