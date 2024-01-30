@@ -3,7 +3,8 @@ import java.util.Arrays;
 
 public class Vowels {
     public static void main(String[] args) {
-
+Vowels vowels = new Vowels();
+System.out.println(vowels.getNumOfVowels("Manzini"));
     }
 
     public int getNumOfVowels(String sentence) {
@@ -12,6 +13,11 @@ public class Vowels {
 
         for (char character: sentence.toCharArray()) {
 
+            for(char vowel: vowels) {
+                if (vowel == character) {
+                    count++;
+                }
+            }
         }
 
         return count;
