@@ -1,15 +1,16 @@
 package com.learning.pizza;
 
 public class NYPizzaStore extends PizzaStore {
-    PizzaLegacy createPizza(String item) {
+    Pizza createPizza(String item) {
         if (item.equals("cheese")) {
             return new NYStyleCheesePizza();
         } else if (item.equals("pepperoni")) {
-            pizza = new NYStylePepperoniPizza();
+             new NYStylePepperoniPizza();
         } else if (item.equals("clam")) {
-            pizza = new NYStyleClamPizza();
+             new NYStyleClamPizza();
         }else if (item.equals("veggie")) {
-            item = new NYStyleVeggiePizza();
+             new NYStyleVeggiePizza();
         } else return null;
+        return null;
     }
 }
